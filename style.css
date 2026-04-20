@@ -219,6 +219,14 @@ h1 {
     }
 
 }
+.chimuelo {
+    position: absolute;
+    bottom: 0;   /* Posiciona en el borde inferior */
+    right: 0;    /* Posiciona en el borde derecho */
+    width: 100px; /* Ajusta el tamaño según necesites */
+    mix-blend-mode: multiply; /* Ayuda a integrar la imagen si tiene fondo blanco */
+    pointer-events: none; /* Evita que la imagen interfiera con los clics en la carta */
+}
 
 
 
